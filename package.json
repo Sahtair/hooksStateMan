@@ -1,44 +1,30 @@
 {
-  "name": "hooksstateman",
-  "version": "1.0.0",
-  "description": "1337 o'clock",
-  "main": "index.js",
-  "scripts": {
-    "start": "parcel ./index.html",
-    "test": "jest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/KerryMahne/hooksStateMan.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/KerryMahne/hooksStateMan/issues"
-  },
-  "homepage": "https://github.com/KerryMahne/hooksStateMan#readme",
+  "name": "hooks-state-man-cra",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "parcel": "^1.12.4",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "react-router-dom": "^5.1.2",
-    "styled-components": "^5.0.1"
+    "react-scripts": "5.0.0",
+    "styled-components": "^5.3.3",
+    "web-vitals": "^2.1.2"
   },
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
-    "eslint": "^6.8.0",
-    "eslint-config-google": "^0.14.0",
-    "eslint-plugin-react": "^7.19.0",
-    "babel-jest": "^27.4.5",
-    "jest": "^27.4.5",
-    "react-test-renderer": "^16.13.1",
-    "@testing-library/react": "12.1.2"
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "react-test-renderer": "^17.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "browserslist": [
-    "last 2 chrome version",
-    "last 2 firefox version"
+    "last 1 chrome version",
+    "last 1 firefox version",
+    "last 1 safari version"
   ]
 }

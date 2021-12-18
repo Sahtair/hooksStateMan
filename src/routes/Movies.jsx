@@ -51,11 +51,13 @@ const MovieStyled = styled.li`
 `;
 
 const MoviesView = () => {
+  console.log(useMoviesState, useMoviesState())
   const {
     state: {
       loading, movies,
     },
   } = useMoviesState();
+  console.log(movies)
   const {fetchMovies} = useMoviesActions();
 
   React.useEffect(() => {
@@ -73,7 +75,7 @@ const MoviesView = () => {
         {
           movies.map((movie) => (
             <MovieStyled key={movie._id}>
-              <Link className="link" to={`/movies/${movie._id}`}>
+              <Link className="link" data-testid={`link-to-${movie._id}`} to={`/movies/${movie._id}`}>
                 {movie.name}
               </Link>
             </MovieStyled>

@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for WithContext Initial render snapshot 1`] = `
+<div
+  className="sc-gsDKAQ bzYqYC"
+>
+  <div
+    className="title"
+  >
+    Movies
+  </div>
+  <ul
+    className="sc-dkPtRN gQguWw"
+  >
+    <li
+      className="sc-hKwDye lbcwmk"
+    >
+      <a
+        className="link"
+        href="/movies/1"
+      />
+    </li>
+    <li
+      className="sc-hKwDye lbcwmk"
+    >
+      <a
+        className="link"
+        href="/movies/2"
+      />
+    </li>
+    <li
+      className="sc-hKwDye lbcwmk"
+    >
+      <a
+        className="link"
+        href="/movies/3"
+      />
+    </li>
+  </ul>
+</div>
+`;
